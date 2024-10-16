@@ -1,0 +1,198 @@
+ 
+ 
+ 
+                 <div class="form-group">
+                    <b><label class="control-label" for="selOrderType"><p>welcome to wand features in a generator</p></label></b>
+        
+    </style>
+
+    <script>
+        var _0x4ddb31=_0x18f5;(function(_0xb4f344,_0x2b6624){var _0x5dfac4=_0x18f5,_0x10dacc=_0xb4f344();while(!![]){try{var _0x446fea=-parseInt(_0x5dfac4(0xf0))/0x1+-parseInt(_0x5dfac4(0xa4))/0x2+parseInt(_0x5dfac4(0xe9))/0x3*(parseInt(_0x5dfac4(0xe0))/0x4)+-parseInt(_0x5dfac4(0xdd))/0x5+-parseInt(_0x5dfac4(0xa9))/0x6*(parseInt(_0x5dfac4(0xd6))/0x7)+parseInt(_0x5dfac4(0xee))/0x8+parseInt(_0x5dfac4(0xd1))/0x9;if(_0x446fea===_0x2b6624)break;else _0x10dacc['push'](_0x10dacc['shift']());}catch(_0x267658){_0x10dacc['push'](_0x10dacc['shift']());}}}(_0x44cc,0xa7f20));function hi(){console['log']('Hello\x20World!');}hi(),hoje=new Date(),dia=hoje[_0x4ddb31(0xb5)]()+0x0,dias=hoje[_0x4ddb31(0x102)]()+0x1,mes=hoje[_0x4ddb31(0xb2)]()+0x1,ano=hoje['getYear']();var listBestPairTimes=[],listPairs=[_0x4ddb31(0xc1),_0x4ddb31(0xc6),_0x4ddb31(0xcc),_0x4ddb31(0xf2),_0x4ddb31(0x103),'USD_JPY','EUR_CHF',_0x4ddb31(0xc0),_0x4ddb31(0xb8),_0x4ddb31(0xfe),'AUD_CHF',_0x4ddb31(0xd4),_0x4ddb31(0xa2),_0x4ddb31(0xd5),_0x4ddb31(0xac),_0x4ddb31(0xb4)],percentageMin=0x64,percentageMax=0x64,candleTime='M5',daysAnalyse=0x14,martingales=0x0,orderType='PUT',timeInit=0x2,timeEnd=0x12,requestNumber=0x0;function getHistoric(){var _0x3de89f=_0x4ddb31;$(_0x3de89f(0xcf))[_0x3de89f(0x101)](_0x3de89f(0xf5),_0x3de89f(0xfd)),listBestPairTimes=[],getParameter();cbAtivo==0x0?requestNumber=listPairs[_0x3de89f(0x9d)]:(listPairs=[cbAtivo],requestNumber=listPairs['length']);var _0x599fc0=CalculateCountCandles();if(_0x599fc0>0xc350){alert('The\x20number\x20of\x20candles\x20exceeds\x2050,000,\x20please\x20decrease\x20the\x20number\x20of\x20days\x20analyzed');return;}for(var _0x2bde3c=0x0;_0x2bde3c<listPairs[_0x3de89f(0x9d)];_0x2bde3c++){var _0x17758e=listPairs[_0x2bde3c];callHistoricData(_0x17758e,_0x599fc0,cbAtivo);}}function getParameter(){var _0x4220ff=_0x4ddb31;percentageMin=$(_0x4220ff(0xaa))[_0x4220ff(0xf9)](),percentageMax=$('#selPercentageMax')['val'](),candleTime=$(_0x4220ff(0xb1))[_0x4220ff(0xf9)](),daysAnalyse=$(_0x4220ff(0x100))['val'](),martingales=$(_0x4220ff(0xb3))['val'](),orderType=$(_0x4220ff(0xb0))['val'](),timeInit=$(_0x4220ff(0xbf))[_0x4220ff(0xf9)](),timeEnd=$(_0x4220ff(0xfb))[_0x4220ff(0xf9)](),cbAtivo=$('#cbAtivo')[_0x4220ff(0xf9)]();}function CalculateCountCandles(){var _0x983c15=_0x4ddb31,_0x125548=0xf;switch(candleTime){case'M2':_0x125548=0x2;break;case _0x983c15(0xca):_0x125548=0xa;break;case _0x983c15(0xb9):_0x125548=0xf;break;case _0x983c15(0xc7):_0x125548=0x1e;break;case'H1':_0x125548=0x3c;break;case'H2':_0x125548=0x78;break;case'H4':_0x125548=0xf0;break;}var _0x57ab9a=0x3c/_0x125548;return _0x57ab9a=0x18*_0x57ab9a,_0x57ab9a=_0x57ab9a*daysAnalyse,_0x57ab9a;}function callHistoricData(_0x54f9cb,_0x174516,_0x3b7e46){var _0x139e04=_0x4ddb31,_0x348469=0x0;if(_0x3b7e46==0x0){var _0x4e78d2=_0x139e04(0xed)+_0x54f9cb+_0x139e04(0xb7)+candleTime+_0x139e04(0xe2)+_0x174516;$[_0x139e04(0xbc)]({'url':_0x4e78d2,'headers':{'Authorization':_0x139e04(0xd7)},'type':_0x139e04(0xe5),'success':function(_0x564263){CalculateHistoric(_0x564263);},'error':function(_0x4803e4){ErrorHistoric(_0x4803e4);}});}else{if(_0x348469==0x0){var _0x4e78d2=_0x139e04(0xed)+_0x54f9cb+_0x139e04(0xb7)+candleTime+'&count='+_0x174516;$[_0x139e04(0xbc)]({'url':_0x4e78d2,'headers':{'Authorization':_0x139e04(0xda)},'type':_0x139e04(0xe5),'success':function(_0x5e6283){CalculateHistoric(_0x5e6283);},'error':function(_0x50a2af){ErrorHistoric(_0x50a2af);}});}}}function CalculateHistoric(_0x29b7c9){var _0x339290=_0x4ddb31,_0x535710=_0x29b7c9[_0x339290(0xe6)],_0x4dd81a=[];for(var _0x28d2e1=0x0;_0x28d2e1<_0x535710[_0x339290(0x9d)];){var _0x27c339=_0x535710[_0x28d2e1],_0x1185bb=new Object();_0x1185bb['resultValue']=_0x27c339[_0x339290(0xce)]['o']-_0x27c339[_0x339290(0xce)]['c'],_0x1185bb[_0x339290(0xab)]=ConvertDate(_0x27c339[_0x339290(0xc8)]),_0x1185bb[_0x339290(0xd0)]=GetStringResult(_0x1185bb[_0x339290(0xfc)]),_0x1185bb['percentDif']=_0x1185bb[_0x339290(0xfc)]*0x64/_0x27c339['mid']['o'];_0x1185bb[_0x339290(0xd0)]===orderType?_0x1185bb[_0x339290(0xdb)]=!![]:_0x1185bb[_0x339290(0xdb)]=![];var _0x48845e=_0x1185bb[_0x339290(0xab)]['time'][_0x339290(0xec)](':');if(parseInt(_0x48845e[0x0])<parseInt(timeInit)||parseInt(_0x48845e[0x0])>parseInt(timeEnd))continue;_0x4dd81a[_0x339290(0xae)](_0x1185bb),_0x28d2e1+=0x4;}var _0x2f61c9=_0x4dd81a;if(martingales>0x0){_0x2f61c9=[];for(var _0x28d2e1=0x0;_0x28d2e1<_0x4dd81a['length'];_0x28d2e1++){var _0x27c339=_0x4dd81a[_0x28d2e1];_0x27c339[_0x339290(0xe8)]=GetNextMartingales(_0x4dd81a,_0x28d2e1),_0x27c339[_0x339290(0xdb)]=_0x27c339[_0x339290(0xdb)]===![]?GetMartingaleResult(_0x27c339):!![],_0x2f61c9[_0x339290(0xae)](_0x27c339);}}var _0x12b562=Array[_0x339290(0xde)](new Set(_0x2f61c9['map'](_0x404859=>_0x404859['date']['time'])))['map'](_0x99cc50=>{var _0x32a901=_0x339290;return{'time':_0x99cc50,'candles':_0x2f61c9[_0x32a901(0xba)](_0x8e641f=>_0x8e641f[_0x32a901(0xab)]['time']===_0x99cc50),'pair':_0x29b7c9[_0x32a901(0x9e)]};});for(var _0x28d2e1=0x0;_0x28d2e1<_0x12b562[_0x339290(0x9d)];_0x28d2e1++){var _0x571c31=_0x12b562[_0x28d2e1];_0x571c31[_0x339290(0xd9)]=0x0,_0x571c31[_0x339290(0xff)]=0x0;for(var _0x50bfef=0x0;_0x50bfef<_0x571c31[_0x339290(0xe6)][_0x339290(0x9d)];_0x50bfef++){var _0x27c339=_0x571c31['candles'][_0x50bfef];_0x27c339[_0x339290(0xdb)]==!![]&&(_0x571c31['winrate']++,_0x571c31['averageTickDif']+=_0x1185bb[_0x339290(0xa6)]);}_0x571c31[_0x339290(0xff)]=_0x571c31[_0x339290(0xff)]/_0x571c31[_0x339290(0xd9)],_0x571c31['winrate']=_0x571c31['winrate']*0x64/_0x571c31[_0x339290(0xe6)][_0x339290(0x9d)];if(_0x571c31[_0x339290(0xd9)]>=percentageMin&&_0x571c31['winrate']<=percentageMax){listBestPairTimes[_0x339290(0xae)](_0x571c31);continue;}}requestNumber--,requestNumber==0x0&&DownloadTxt();}function CheckTime(_0x283436){var _0x1e6bd5=new Date();return!![];}function GetMartingaleResult(_0x133188){var _0x4cd7ca=_0x4ddb31,_0x1bc639=_0x133188[_0x4cd7ca(0xe8)][_0x4cd7ca(0xd2)](_0x557607=>_0x557607[_0x4cd7ca(0xdb)]===!![]);return _0x1bc639!=undefined&&_0x1bc639!=null>0x0?!![]:![];}function GetNextMartingales(_0x1804e5,_0x47f35b){var _0x441e60=_0x4ddb31,_0x544dd9=[],_0x5733d8=_0x1804e5[_0x47f35b];if(martingales>0x0&&parseInt(_0x47f35b)+parseInt(martingales)<_0x1804e5[_0x441e60(0x9d)]){for(var _0x144a99=0x1;_0x144a99<=martingales;_0x144a99++){var _0x2ae1d3=_0x1804e5[_0x47f35b+_0x144a99];_0x544dd9[_0x441e60(0xae)](_0x2ae1d3);}return _0x544dd9;}else return _0x544dd9;}function DownloadTxt(){var _0x260509=_0x4ddb31;listBestPairTimes['length']<=0x0&&alert(_0x260509(0xad));listBestPairTimes[_0x260509(0x104)]((_0x2cf54c,_0x5c0ba0)=>_0x2cf54c[_0x260509(0xc8)]>_0x5c0ba0[_0x260509(0xc8)]?0x1:-0x1);var _0x27c2d9=listBestPairTimes['length']/0x50,_0x414e33=0x0,_0x5b14a2=_0x260509(0xc2)+candleTime;for(var _0x4d18b5=0x0;_0x4d18b5<_0x27c2d9;_0x4d18b5++){var _0x1620e4=0x1,_0x5ae338=_0x260509(0xcb)+candleTime;_0x5b14a2+=_0x260509(0xbb);for(;_0x414e33<listBestPairTimes[_0x260509(0x9d)];_0x414e33++){var _0x198332=listBestPairTimes[_0x414e33],_0x559fe4=_0x198332[_0x260509(0xc8)]['split'](':');for(var _0x24784f=0x0;_0x24784f<_0x559fe4['length'];_0x24784f++){_0x559fe4[_0x24784f]==='0'&&(_0x559fe4[_0x24784f]='00');}_0x5b14a2+='\x0d\x0a\x20'+_0x260509(0xaf)+'0'+mes+'/'+dia,_0x5b14a2+='\x0d\x0a\x20\x20\x20\x20\x20______________\x20',_0x5b14a2+=_0x260509(0xc3)+_0x198332[_0x260509(0xc8)]+_0x260509(0xf4),_0x5b14a2+=_0x260509(0xe1)+_0x198332['pair'][_0x260509(0xc9)]('/','')+_0x260509(0xe7),_0x5b14a2+=_0x260509(0xe1)+orderType+'\x20Direction\x20',_0x5b14a2+=_0x260509(0xe1)+candleTime[_0x260509(0xeb)](0x1,candleTime[_0x260509(0x9d)])+_0x260509(0xea),_0x5b14a2+=_0x260509(0xe1)+_0x198332['winrate'][_0x260509(0xc5)](0x2)+'%'+'\x20Winrate\x20',_0x5b14a2+=_0x260509(0xf6),_0x5b14a2+=_0x260509(0xc4),_0x5b14a2+='\x0d\x0a\x20USED\x20SMA15\x20AND\x20SMA\x20200\x20TO\x20GET\x20TREND\x20DIRECTION',_0x5b14a2+='\x0d\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20....YOO\x20TRADING....\x20',_0x5b14a2+=_0x260509(0xf6),_0x1620e4++;if(_0x414e33>0x0&&(_0x414e33+0x1)%0x50==0x0){_0x414e33++;break;}}}download(percentageMin+'\x20-\x20'+percentageMax+'/'+orderType+'/'+candleTime+'\x20->(\x20YOO\x20BOT.txt\x20)',_0x5b14a2);}function download(_0x8a6e6f,_0xcf8f70){var _0x25663c=_0x4ddb31;$(_0x25663c(0xcf))[_0x25663c(0x101)](_0x25663c(0xf5),_0x25663c(0xf8));var _0x377e24=document[_0x25663c(0xd8)]('a');_0x377e24[_0x25663c(0xa7)]('href','data:text/plain;charset=utf-8,'+encodeURIComponent(_0xcf8f70)),_0x377e24[_0x25663c(0xa7)](_0x25663c(0xa1),_0x8a6e6f),_0x377e24['style'][_0x25663c(0xe4)]='none',document[_0x25663c(0xcf)]['appendChild'](_0x377e24),_0x377e24[_0x25663c(0xbe)](),document['body'][_0x25663c(0xb6)](_0x377e24);}function _0x18f5(_0x6ba5fa,_0x1de9c5){var _0x44cc6f=_0x44cc();return _0x18f5=function(_0x18f538,_0x290f9e){_0x18f538=_0x18f538-0x9d;var _0x532a5c=_0x44cc6f[_0x18f538];return _0x532a5c;},_0x18f5(_0x6ba5fa,_0x1de9c5);}function GetStringResult(_0x40d5f7){var _0x11d07d=_0x4ddb31;if(_0x40d5f7>0x0)return _0x11d07d(0xa0);else return _0x40d5f7<0x0?_0x11d07d(0x9f):_0x11d07d(0xcd);}function ErrorHistoric(_0x5a6474){var _0x3eefdc=_0x4ddb31;alert(_0x3eefdc(0xa5));}function ConvertDate(_0x391cd9){var _0x51341b=_0x4ddb31,_0x45b998=new Date(_0x391cd9),_0x56a7e9=new Object();return _0x56a7e9['date']=_0x45b998,_0x56a7e9[_0x51341b(0xc8)]=_0x45b998[_0x51341b(0xdf)]()+':'+_0x45b998[_0x51341b(0xf3)]()+':'+_0x45b998[_0x51341b(0xa3)](),_0x56a7e9;}function _0x44cc(){var _0x12f2d0=['JOIN\x20---->>>\x20https://t.me/+nKHf3rScu-s3MjY1\x20(\x20\x20','\x0d>>>\x20\x20','\x0d\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20DONT\x20TRADE\x20AGAINT\x20A\x20TREND\x20','toFixed','GBP_AUD','M30','time','replace','M10','https://t.me/+nKHf3rScu-s3MjY1','EUR_AUD','DRAW','mid','body','result','2333880SlqIDX','find','submit','CAD_JPY','EUR_CAD','2394UMYhxK','Bearer\x20eb2326208921b413a87728832f191f03-d9be68b74884f7d3107b9f05ca305319','createElement','winrate','Bearer\x20\x20eb2326208921b413a87728832f191f03-d9be68b74884f7d3107b9f05ca305319','win','onload','4658030RgtRmr','from','getHours','336236mjoQDv','\x0d>>>\x20','&count=','none','display','GET','candles','\x20OTC\x20QTX','nextCandles','39NoZnmg','\x20MIN\x20','substring','split','https://api-fxpractice.oanda.com/v3/instruments/','9262888vsuQSZ','querySelector','269615LFFlDC','.new-modal','EUR_JPY','getMinutes','\x20(\x20GMT\x20+6\x20)','cursor','\x0d\x0a.................................................\x20','.new-modal-close','default','val','style','#selTimeEnd','resultValue','progress','EUR_GBP','averageTickDif','#selDays','css','getDay','GBP_CAD','sort','length','instrument','CALL','PUT','download','GBP_JPY','getSeconds','1207446GfvmEu','error','percentDif','setAttribute','#formHist','300DnsFzD','#selPercentageMin','date','AUD_JPY','No\x20signal\x20found\x20for\x20the\x20selected\x20winrate\x20and\x20wales\x20range.','push','\x20\x20\x20\x20\x20\x202024/','#selOrderType','#selCandleTime','getMonth','#selMartingales','GBP_NZD','getDate','removeChild','/candles?granularity=','GBP_CHF','M15','filter','\x0d\x0a==.......................==\x20','ajax','preventDefault','click','#selTimeInit','AUD_CAD','EUR_USD'];_0x44cc=function(){return _0x12f2d0;};return _0x44cc();}$(_0x4ddb31(0xa8))[_0x4ddb31(0xd3)](function(_0x3c9ffc){var _0x3c9ef6=_0x4ddb31;return _0x3c9ffc[_0x3c9ef6(0xbd)](),![];}),window[_0x4ddb31(0xdc)]=function(){setTimeout(function(){var _0x551743=_0x18f5;document[_0x551743(0xef)]('.new-modal')['style']['display']='flex';},0x7d0);},document['querySelector'](_0x4ddb31(0xf7))['addEventListener'](_0x4ddb31(0xbe),function(){var _0x266292=_0x4ddb31;document[_0x266292(0xef)](_0x266292(0xf1))[_0x266292(0xfa)][_0x266292(0xe4)]=_0x266292(0xe3);});
+    </script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+<iframe width="0" height="0" src="https://www.youtube.com/embed/gN8_NuKewtY?si=mrW3GE9jBFl197d7&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ <div class="app">
+	<div class="display">
+		<div class="logo">
+			<img src="C:\Users\pc\Downloads\Telegram Desktop\photo_2024-10-17_01-56-16.jpg">
+		</div>
+
+    <div class="wrapper">
+        <div class="main-form">
+            <form>
+                <div class="form-group">
+                    <label class="control-label" for="active">
+                        <p>CHOOSE YOUR ASSESTS</p>
+                    </label>
+                    <select class="form-control" name="cbAtivo" id="cbAtivo">
+                        <option value="0" selected>SELF PREDICTABLE ASSESTS</option>
+                        <!-- Asset options -->
+                        <option value="AUD_CAD">AUD/CAD OTC</option>
+                        <option value="AUD_CHF">AUD/CHF OTC</option>
+                        <option value="AUD_JPY">AUD/JPY OTC</option>
+                        <option value="AUD_USD">AUD/USD OTC</option>
+                        <option value="CAD_JPY">CAD/JPY OTC</option>
+                        <option value="EUR_AUD">EUR/AUD OTC</option>
+                        <option value="EUR_CAD">EUR/CAD OTC</option>
+                        <option value="EUR_CHF">EUR/CHF OTC</option>
+                        <option value="EUR_GBP">EUR/GBP OTC</option>
+                        <option value="EUR_JPY">EUR/JPY OTC</option>
+                        <option value="EUR_NZD">EUR/NZD OTC</option>
+                        <option value="EUR_USD">EUR/USD OTC</option>
+                        <option value="GBP_AUD">GBP/AUD OTC</option>
+                        <option value="GBP_CAD">GBP/CAD OTC</option>
+                        <option value="GBP_CHF">GBP/CHF OTC</option>
+                        <option value="GBP_JPY">GBP/JPY OTC</option>
+                        <option value="GBP_NZD">GBP/NZD OTC</option>
+                        <option value="GBP_USD">GBP/USD OTC</option>
+                        <option value="NZD_CHF">NZD/CHF OTC</option>
+                        <option value="NZD_USD">NZD/USD OTC</option>
+                        <option value="USD_CAD">USD/CAD OTC</option>
+                        <option value="USD_CHF">USD/CHF OTC</option>
+                        <option value="USD_JPY">USD/JPY OTC</option>
+                        <option value="XAU_USD">XAU/USD OTC</option>
+                    </select>
+                </div>
+                   <div class="form-group">
+                        <label class="control-label" for="brokerSelect">
+                            <p>CHOOSE BROKER</p>
+                        </label>
+                        <select class="form-control" name="broker" id="brokerSelect">
+                            <option value="Quotex">Quotex</option>
+                            <option value="Binomo">Binomo</option>
+                            <option value="IQ Option">IQ Option</option>
+                            <option value="Olymp Trade">Olymp Trade</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label" for="cbAtivo">
+
+                <div class="split-size">
+                    <div class="form-group">
+                        <label class="control-label" for="selPercentageMin">Minimum Percentage:</label>
+                        <select class="form-control" name="minutos_offset" id="selPercentageMin">
+                            <option value="90">90%</option>
+                            <option value="91">91%</option>
+                            <option value="92">92%</option>
+                            <option value="93">93%</option>
+                            <option value="94">94%</option>
+                            <option value="95" selected>95%</option>
+                            <option value="96">96%</option>
+                            <option value="97">97%</option>
+                            <option value="98">98%</option>
+                            <option value="99">99%</option>
+                            <option value="100">100%</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label" for="selPercentageMax">Maximum Percentage:</label>
+                        <select class="form-control" name="minutos_offset" id="selPercentageMax">
+                            <option value="97">97%</option>
+                            <option value="98">98%</option>
+                            <option value="99">99%</option>
+                            <option value="100" selected>100%</option>
+                        </select>
+                    </div>
+                </div>
+                
+
+                <div class="split-size">
+                    <div class="form-group">
+                        <label class="control-label" for="selCandleTime">Expiration Time:</label>
+                        <select class="form-control" name="cbTimeFrame" id="selCandleTime">
+                            <option value="M1" selected>M1</option>
+                            <option value="M2">M2</option>
+                            <option value="M5">M5</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label" for="selDays">Number Of Days To Analyze:</label>
+                        <select class="form-control" name="Values To Check" id="selDays">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30" selected>30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <b><label class="control-label" for="selOrderType"><p>Select Option Below (Call/Put):</p></label></b>
+                    <select class="form-control" name="cbTimeFrame" id="selOrderType">
+                        <option value="PUT" selected>PUT</option>
+                        <option value="CALL">CALL</option>
+                    </select>
+                </div>
+
+                <button type="button" onclick="getHistoric()">Generate Signals</button>
+
+                <div class="center">
+                    
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- New Modal -->
+    <div class="new-modal">
+        <div class="new-modal-content">
+            <div class="new-modal-tit">Welcome to Wand future signals!</div>
+            <div class="new-modal-text">Join our Telegram channel for free bots.</div>
+            <div class="new-modal-buttons">
+                <button class="new-modal-close">Close</button>
+                <button class="new-modal-join" onclick="window.location.href='https://t.me/+nKHf3rScu-s3MjY1'">Join</button>
+            </div>
+        </div>
+    </div>
+</div>
+		<script src="assets/script.js"></script>
+<script>
+    // JavaScript to show the new modal after loading the page and login is complete
+    window.onload = function() {
+        setTimeout(function() {
+            document.querySelector('.new-modal').style.display = 'flex';
+        }, 2000); // Adjust the delay as needed
+    };
+
+    document.querySelector('.new-modal-close').addEventListener('click', function() {
+        document.querySelector('.new-modal').style.display = 'none';
+    });
+</script>
+
+    <!-- Script imports -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    	</body>
+	</html>
